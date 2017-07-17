@@ -1,7 +1,5 @@
 package AlgorithmsInNutshell;
 
-import java.util.Arrays;
-
 public class Shell {
 
     public static void sort(int[] arr) {
@@ -22,11 +20,5 @@ public class Shell {
 
     }
 
-    public static void main(String[] args) {
-        int[] x = {3, 2, 1, 4, 6, 5};
-        Arrays.toString(x);
 
-        sort(x);
-        System.out.println(Arrays.toString(x));
-    }
 }
